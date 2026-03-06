@@ -4,7 +4,7 @@ This folder contains the code used in our paper:
 *Towards Optimized Perishable Inventory Systems: Integrating Time-Temperature Indicators with Deep Reinforcement Learning*
 (Sirine Taleb, Chaaben Kouki, Lama Moussawi-Haidar).
 
-This guide explains how to reproduce the CSV outputs.
+This guide explains how to reproduce the results in csv.
 
 ## 1) Start Here
 
