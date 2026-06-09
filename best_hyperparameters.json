@@ -1,0 +1,218 @@
+[
+  {
+    "name": "auto_448",
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        64,
+        64
+      ]
+    },
+    "lr_start": 0.0006245435660436964,
+    "lr_end": 2.7503355208453628e-05,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "gamma": 0.9890555593574961,
+    "gae_lambda": 0.914895434922753,
+    "clip_start": 0.236640117249551,
+    "clip_end": 0.12272053619766307,
+    "ent_coef": 0.03326248168747035,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.013258283713613544,
+    "clip_range_vf": null
+  },
+  {
+    "name": "auto_306",
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        128,
+        128
+      ]
+    },
+    "lr_start": 0.0008002983824707991,
+    "lr_end": 1.4896140962299413e-06,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "n_epochs": 5,
+    "gamma": 0.9860787061013278,
+    "gae_lambda": 0.9245880346705846,
+    "clip_start": 0.28309620341849673,
+    "clip_end": 0.1369295288475828,
+    "ent_coef": 0.008173216203259727,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.03139644935636998,
+    "clip_range_vf": null
+  },
+  {
+    "name": "auto_138",
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        128,
+        128
+      ]
+    },
+    "lr_start": 0.0007262635909625315,
+    "lr_end": 5.3304802439987826e-05,
+    "n_steps": 256,
+    "batch_size": 64,
+    "n_epochs": 8,
+    "gamma": 0.9900757075487362,
+    "gae_lambda": 0.9191551905508695,
+    "clip_start": 0.31322072299055664,
+    "clip_end": 0.08936037662852556,
+    "ent_coef": 0.028343529607694647,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": null,
+    "clip_range_vf": null
+  },
+  {
+    "name": "auto_366",
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        128,
+        128
+      ]
+    },
+    "lr_start": 0.00030373889755282445,
+    "lr_end": 6.746190580944042e-06,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "n_epochs": 8,
+    "gamma": 0.9906351130454322,
+    "gae_lambda": 0.9102249957402518,
+    "clip_start": 0.19229350632406766,
+    "clip_end": 0.040226497785352366,
+    "ent_coef": 0.01449789702512093,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.03674466196892715,
+    "clip_range_vf": null
+  },
+  {
+    "name": "auto_098",
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        64,
+        64
+      ]
+    },
+    "lr_start": 0.0002944121441242525,
+    "lr_end": 5.460088230521054e-05,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "n_epochs": 5,
+    "gamma": 0.9845491126154651,
+    "gae_lambda": 0.9171070769621462,
+    "clip_start": 0.1589605498521274,
+    "clip_end": 0.10115861587540172,
+    "ent_coef": 0.06077069208880042,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": null,
+    "clip_range_vf": null
+  },
+  {
+    "name": "auto_099",
+    "net_arch": {
+      "pi": [
+        128,
+        128
+      ],
+      "vf": [
+        128,
+        128
+      ]
+    },
+    "lr_start": 0.00029267995456034836,
+    "lr_end": 3.8862517346673336e-05,
+    "n_steps": 1024,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "gamma": 0.991791938092433,
+    "gae_lambda": 0.9095526079322096,
+    "clip_start": 0.25808645998611496,
+    "clip_end": 0.11848356372889815,
+    "ent_coef": 0.05743360182820927,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.02653174829025068,
+    "clip_range_vf": null
+  },
+  {
+    "name": "auto_421",
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        128,
+        128
+      ]
+    },
+    "lr_start": 0.0003323949229958681,
+    "lr_end": 3.130386428773952e-05,
+    "n_steps": 512,
+    "batch_size": 64,
+    "n_epochs": 5,
+    "gamma": 0.990109366279946,
+    "gae_lambda": 0.901723706450002,
+    "clip_start": 0.2053147959855876,
+    "clip_end": 0.07709934159862007,
+    "ent_coef": 0.0654101984056697,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.009248103225853208,
+    "clip_range_vf": null
+  },
+  {
+    "name": "auto_359",
+    "net_arch": {
+      "pi": [
+        64,
+        64
+      ],
+      "vf": [
+        64,
+        64
+      ]
+    },
+    "lr_start": 0.0003790356687552224,
+    "lr_end": 6.287029567600739e-05,
+    "n_steps": 256,
+    "batch_size": 64,
+    "n_epochs": 8,
+    "gamma": 0.9956781649896798,
+    "gae_lambda": 0.9121501979348245,
+    "clip_start": 0.19743427209690612,
+    "clip_end": 0.08354311267106172,
+    "ent_coef": 0.0320270049103265,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.03196577497022432,
+    "clip_range_vf": null
+  }
+]
