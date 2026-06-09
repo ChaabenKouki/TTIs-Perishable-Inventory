@@ -101,6 +101,7 @@ This supports:
 Additional files:
 - `logs/config_<id>/...` (trained PPO models used by benchmark and sensitivity runs)
 - `results/*.json` (run metadata)
+- `results_R2/ppo_hyperparameter_profiles_R2.csv` and `results_R2/ppo_hyperparameter_selection_by_configuration_R2.csv` (PPO settings used in the revised experiments)
 
 ## 8) File Roles
 
